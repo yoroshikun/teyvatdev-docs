@@ -113,7 +113,7 @@ const Layout = ({
         </div>
         <div className="w-full lg:w-4/5 overflow-auto lg:h-screen">
           <div className="flex max-w-6xl mx-auto justify-between">
-            <div className="font-semibold py-2 my-2 text-gray">
+            <div className="font-semibold px-2 py-2 my-2 text-gray">
               Search [Unimplemented]
             </div>
             <div className="flex justify-left bg-primary p-2">
@@ -148,7 +148,7 @@ const Layout = ({
               </div>
             </div>
           </div>
-          <div className="max-w-6xl mx-auto">{children}</div>
+          <div className="max-w-6xl px-8 mx-auto">{children}</div>
         </div>
       </div>
     </>
